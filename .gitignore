@@ -1,0 +1,45 @@
+# Ignore vendor directories
+/vendor/
+
+# Ignore node_modules directory
+/node_modules/
+
+# Ignore compiled assets
+/public/js/
+/public/css/
+
+# Ignore environment configuration files
+.env
+.env.*
+
+# Ignore storage directory
+/storage/
+
+# Ignore Mix-manifest files
+mix-manifest.json
+
+# Ignore compiled Vue.js files
+/resources/js/components/
+/resources/js/views/
+
+# Ignore any local development configuration files
+Homestead.yaml
+Homestead.json
+
+# Ignore SQLite database file
+/*.sqlite
+
+# Ignore logs and cache files
+/storage/logs/
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/testing/
+
+# Ignore the compiled application config and routes
+/bootstrap/cache/
+
+# Ignore PhpStorm configuration
+.idea/
+
+# Ignore compiled Laravel Blade templates
+.phpstorm.meta.php
