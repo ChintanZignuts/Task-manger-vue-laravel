@@ -1,10 +1,17 @@
+<script setup></script>
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="contaionor">
+    <div class="about">
+      <h2>About Page</h2>
+    <p>This is the about page content.</p>
+    </div>
   </div>
 </template>
 
-<style>
+<style scoped>
+.containor{
+  text-align: center;
+}
 @media (min-width: 1024px) {
   .about {
     min-height: 100vh;
