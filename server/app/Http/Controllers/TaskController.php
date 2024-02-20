@@ -10,7 +10,7 @@ class TaskController extends Controller
     public function index()
     {
         try{
-            $tasks = Task::all();
+            $tasks = Task::orderBy('due_date')->get();
             return response()->json(['tasks' => $tasks]);
         }catch(\Exception $e){
             return response()->json(['error'=>'Error fetching tasks'],500);
